@@ -121,7 +121,7 @@ var config_data = `
       "type": "counter",
       "cycleTimer": "tct"
     },
-    { "name": "Manages<br>Game Pieces",
+    { "name": "Manages Middle",
       "code": "wf",
       "type": "bool"
     },
