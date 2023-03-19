@@ -79,7 +79,7 @@ var config_data = `
       "code": "acc",
       "type": "bool"
     },
-    { "name": "Crossed Charging Station",
+    { "name": "Auto Working",
       "code": "acs",
       "type": "bool"
     },
@@ -116,20 +116,20 @@ var config_data = `
       "shape": "circle 12 black red true",
       "cycleTimer": "tct"
     },
-    { "name": "Feeder Count<br>(Fed another bot)",
+    { "name": "Feeder/Assist Count<br>(Fed another bot)",
       "code": "tfc",
       "type": "counter",
       "cycleTimer": "tct"
     },
-    { "name": "Was Fed<br>Game Pieces",
+    { "name": "Manages<br>Game Pieces",
       "code": "wf",
       "type": "bool"
     },
-    { "name": "Was Defended",
+    { "name": "Slow Placement",
       "code": "wd",
       "type": "bool"
     },
-    { "name": "Who Defended this bot",
+    { "name": "Comment",
       "code": "who",
       "type": "text"
     },
@@ -219,11 +219,11 @@ var config_data = `
       "code": "die",
       "type": "bool"
     },
-    { "name": "Tippy<br>(almost tipped over)",
+    { "name": "Slow piece pickup",
       "code": "tip",
       "type": "bool"
     },
-    { "name": "Dropped Cones (>2)",
+    { "name": "Dropped Pieces (>2)",
       "code": "dc",
       "type": "bool"
     },
